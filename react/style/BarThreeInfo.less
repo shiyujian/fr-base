@@ -1,0 +1,61 @@
+@import "../../../theme";
+.bar-three-info {
+  padding: 0.75rem 0.75rem 0.75rem 2.25rem;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+
+  .name {
+    height: 0.9rem;
+    font-size: @size-text-xxxy;
+    color: @color-text-xxx;
+    margin-top: 0.2rem;
+  }
+  .val {
+    height: 1.1rem;
+    line-height: 1.1rem;
+    font-size: @size-text-xx;
+    color: @color-text-x;
+  }
+
+  .info-right-only-val {
+    width: 3rem;
+    position: relative;
+    .only-val {
+      margin-right: 1rem;
+      position: absolute;
+      right: 0;
+      width: 3rem;
+      text-align: right;
+      top: 50%;
+      transform: translateY(-50%);
+      color: @color-text-xxx;
+      font-size: @size-text-xxxy;
+
+    }
+  }
+
+
+
+  /*  .info-left {
+     float: left;
+    width: 4rem;
+    }
+    .info-right {
+      position: relative;
+      width: 4rem;
+      float: right;
+    }
+    .info-mid {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      .container {
+        width: 4rem;
+        margin: auto;
+      }
+
+    }*/
+
+}

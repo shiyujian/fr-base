@@ -1,0 +1,74 @@
+.fr-alert {
+  position: fixed;
+  top: 0;
+  z-index: 1000;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.4);
+  .alert-modal-container {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    transform: translateY(-50%);
+    .alert-modal {
+      background-color: #ffffff;
+      width: 14.5rem;
+      margin: auto;
+      border-radius: 0.6rem;
+      .main-container {
+        padding: 1rem;
+        text-align: center;
+        font-size: 0.85rem;
+        color: #030303;
+        word-wrap: break-word;
+        .title {
+          font-size: 0.9rem;
+          color: #333333;
+          font-weight: bold;
+        }
+        .container {
+          padding-top: 0.5rem;
+        }
+      }
+
+      .alert-btn {
+        height: 2.625rem;
+        line-height: 2.625rem;
+        width: 12.5rem;
+        margin: auto;
+        border-top: solid 1px #E1E1E1;
+        font-size: 0.9rem;
+        text-align: center;
+        color: #0076FF;
+        position: relative;
+        .top-line {
+          width: 100%;
+          height: 4.5rem;
+          position: absolute;
+          top: -1.15rem;
+          transform: scaleY(0.5);
+          border-top: 1px solid rgba(77, 77, 77, 0.78);
+        }
+
+      }
+    }
+  }
+
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+
+    }
+
+    to {
+      opacity: 1;
+    }
+  }
+
+  .animated-fade-in {
+    animation-duration: 0.6s;
+    animation-fill-mode: both;
+    animation-name: fadeIn;
+  }
+
+}

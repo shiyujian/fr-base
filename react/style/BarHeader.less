@@ -1,0 +1,37 @@
+@import "../../../theme.less";
+
+.bar-header {
+  width: 100%;
+  position: relative;
+  background-position: 0.75rem 50%;
+  background-size: 1rem;
+  background-repeat: no-repeat;
+  padding: 0 0.75rem 0 2.25rem;
+  .text-container {
+    position: relative;
+    padding: 0.65rem 0 0.65rem 0;
+    border-bottom: solid 1px @color-border-gray;
+    .title {
+      font-size: @size-text-xxy;
+      color: @color-text-x;
+      height: 1.05rem;
+      line-height: 1.05rem;
+    }
+    .sub-title {
+      font-size: @size-text-xxxx;
+      color: @color-text-xxx;
+      height: 0.85rem;
+      line-height: 0.85rem;
+    }
+
+
+    .right-show {
+      position: absolute;
+      right: 0;
+      top: 50%;
+      transform: translateY(-50%);
+    }
+  }
+
+
+}

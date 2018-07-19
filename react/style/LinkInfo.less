@@ -1,0 +1,26 @@
+@import "../../../theme";
+.link-info {
+  width: 100%;
+  background: #ffffff;
+  padding: 0.8rem 0.75rem 1rem 2.15rem;
+  .info-content {
+    position: relative;
+    p:nth-child(1) {
+      font-size: 1rem;
+      color: @color-text-x;
+    }
+    p:nth-child(2) {
+      margin-top: 0.5rem;
+      font-size: 0.65rem;
+      color: @color-text-xxx;
+    }
+    p:nth-child(3) {
+      position: absolute;
+      right: 0;
+      top: 50%;
+      transform: translateY(-50%);
+      font-size: 0.65rem;
+      color: @color-text-xxx;
+    }
+  }
+}

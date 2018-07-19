@@ -1,0 +1,44 @@
+@import "../../../theme.less";
+
+.item-header-li {
+
+  height: 2.2rem;
+  line-height: 2.2rem;
+  margin: auto;
+  font-size: @size-text-xxx;
+  width: 100%;
+  color: @color-text-x;
+  background-color: #ffffff;
+  padding: 0 0.75rem;
+  position: relative;
+
+  span:nth-child(1) {
+    display: block;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 0.7rem;
+    float: left;
+    width: 0.15rem;
+    margin-right: 0.35rem;
+    background-color: @color-main;
+  }
+
+  span:nth-child(2) {
+    color: @color-text-xxx;
+    float: right;
+    font-size: 0.75rem;
+  }
+
+
+
+
+
+  .bottom-line {
+    position: absolute;
+    width: 17.25rem;
+    top: 100%;
+    border-bottom: 1px solid @color-border-gray;
+    z-index: 1;
+  }
+}

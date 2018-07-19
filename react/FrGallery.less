@@ -1,0 +1,43 @@
+.fr-gallery {
+  width: 100%;
+  overflow: hidden;
+  height: 6rem;
+
+  .gallery-book {
+
+    position: relative;
+    width: 100%;
+    white-space: nowrap;
+
+    .not-touch-moving {
+      transition: all 600ms;
+    }
+    .gallery-item {
+
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 6rem;
+      background-size: contain;
+      background-repeat: no-repeat;
+    }
+    .right-item {
+      transform: translateX(100%);
+    }
+
+    .middle-item {
+      transform: unset;
+    }
+
+    .left-item {
+      transform: translateX(-100%);
+    }
+
+
+
+
+  }
+
+
+}
